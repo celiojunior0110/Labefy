@@ -1,6 +1,6 @@
 # **Projeto Labefy**
 
-O projeto foi feito com conhecimentos básicos em React, sem utilização de hooks, redux e afins.
+O projeto foi feito com conhecimentos básicos em React, sem utilização de hooks, redux e afins. <br>
 Foi feita uma integração com a [API Labefy](https://documenter.getpostman.com/view/7549981/SztBc8eT?version=latest), disponibilizada pela [Labenu](https://www.labenu.com.br/).
 
 <hr>
