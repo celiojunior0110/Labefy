@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# **Projeto Labefy**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto foi feito com conhecimentos básicos em React, sem utilização de hooks, redux e afins.
+Foi feita uma integração com a [API Labefy](https://documenter.getpostman.com/view/7549981/SztBc8eT?version=latest), disponibilizada pela [Labenu](https://www.labenu.com.br/).
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+### ✔ Funcionalidades:
+- Criar Playlists (Não podendo ter duas playlists com nomes iguais);
+- Apagar Playlists ao clicar 2x em seu card;
+- Acessar Página da Playlist, onde poderá ver a lista de músicas adicionadas;
+- Adicionar Músicas (Não podendo ter duas músicas com nomes iguais de um mesmo artista);
+- Deletar Músicas ao clicar 2x no card;
+- Tocar música ao clicar no card;
+- Dar play e pause.
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ❌ O que não foi implementado:
+- Opção de renomear uma playlist ou música;
+- Campos de filtros e busca;
+- Mudar para música anterior ou próxima.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<hr>
 
-### `npm test`
+### 🛠 Ferramentas utilizadas:
+- **Axios:** Integração com API;
+- **Styled-components:** Estilização completa da aplicação;
+- **React-icons:** Icones de Play e Pause;
+- **React-player:** Player de áudio para tocar músicas adicionadas com link direto;
+- **SweetAlert2:** Alertas, Avisos, Mensagens de erro e sucesso.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr>
 
-### `npm run build`
+### Link do Deploy:
+[https://tan-range.surge.sh/](https://tan-range.surge.sh/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Imagens
+![image](https://user-images.githubusercontent.com/62436902/157776792-9d8cd5fc-15b3-4daf-a0b0-d5d22eb654f9.png)
+![image](https://user-images.githubusercontent.com/62436902/157776858-0bc33f50-5387-4dc3-bc17-f8be6d0c86e4.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
